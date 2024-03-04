@@ -31,7 +31,7 @@
 #include <stdbool.h>
 #include <math.h>
 
-#include "shape_function_engine.h"
+#include "Bilinear-Quad-Inverse-Mapper.h"
 
 // todo: check if the code is up to date with the latest changes in your code in DEST
 
@@ -625,7 +625,7 @@ void F_ShapeFunction_values(double xi1, double xi2, double Psi[4])
 
 }
 
-void Shape_function_engine_Quad(double Quadrilateral[8], double PointCoo[2], double Shape_func_values[4])
+void Bilinear_Quad_Shape_Function_Full(double Quadrilateral[8], double PointCoo[2], double Shape_func_values[4])
 {
 	// Incoming Quadrilateral must be CCW 
 	double temp_u, temp_v;
