@@ -1,24 +1,28 @@
-//                                                                                                           //
-//                                                                                                           //
-//                                                                                                           //
-//  ____  _                        _____                 _   _               _____             _             //
-// / ___|| |__   __ _ _ __   ___  |  ___|   _ _ __   ___| |_(_) ___  _ __   | ____|_ __   __ _(_)_ __   ___  //
-// \___ \| '_ \ / _` | '_ \ / _ \ | |_ | | | | '_ \ / __| __| |/ _ \| '_ \  |  _| | '_ \ / _` | | '_ \ / _ \ //
-//  ___) | | | | (_| | |_) |  __/ |  _|| |_| | | | | (__| |_| | (_) | | | | | |___| | | | (_| | | | | |  __/ //
-// |____/|_| |_|\__,_| .__/ \___| |_|   \__,_|_| |_|\___|\__|_|\___/|_| |_| |_____|_| |_|\__, |_|_| |_|\___| //
-//                   |_|                                                                 |___/               //
-//                                                                                                           //
-//                                                                                                           //
-//                                                                                                           //
-
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+/* @                                                                                                                @ */
+/* @                                                                                                                @ */
+/* @   ____  _ _ _                             ___                  _      ___                                      @ */
+/* @  | __ )(_| (_)_ __   ___  __ _ _ __      / _ \ _   _  __ _  __| |    |_ _|_ ____   _____ _ __ ___  ___         @ */
+/* @  |  _ \| | | | '_ \ / _ \/ _` | '_______| | | | | | |/ _` |/ _` |_____| || '_ \ \ / / _ | '__/ __|/ _ \_____   @ */
+/* @  | |_) | | | | | | |  __| (_| | | |_____| |_| | |_| | (_| | (_| |_____| || | | \ V |  __| |  \__ |  __|_____|  @ */
+/* @  |_______|_|_|_| |_|\___|\__,_|_|        \__\_\\__,_|\__,_|\__,_|    |___|_| |_|\_/ \___|_|  |___/\___|        @ */
+/* @  |  \/  | __ _ _ __  _ __   ___ _ __                                                                           @ */
+/* @  | |\/| |/ _` | '_ \| '_ \ / _ | '__|                                                                          @ */
+/* @  | |  | | (_| | |_) | |_) |  __| |                                                                             @ */
+/* @  |_|  |_|\__,_| .__/| .__/ \___|_|                                                                             @ */
+/* @               |_|   |_|                                                                                        @ */
+/* @                                                                                                                @ */
+/* @                                                                                                                @ */
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 /*
- * Library Name: Shape Function Engine
+ * Library Name: Bilinear-Quad-Inverse-Mapper
  * Author: Indrajeet Sahu
  * Version: 1.0
  * Date: February, 2024
  * Description:
-                A powerful C library for finding the shape functions of any point with respect to a triangle or quadrilateral.
-                Given a point and a polygon, the library runs to find the bilinear mapping parametric co-ordinates in case of quadrilateral and the Barycentric co-ordinates in case of a triangle.
+                A powerful C library for finding the parametric co-ordinates of bilinear mapping for any given point with respect to a quadrilateral. 
+		These parametric co-ordinates are also utilised in calculating the interpolation functions or shape functions. 
+  		The library also helps in evaluating the Barycentric co-ordinates of a point in case of a triangle.
  * License: MIT License
  *
  */
