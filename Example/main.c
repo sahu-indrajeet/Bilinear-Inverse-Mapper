@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdbool.h>
-#include "bilinear_inverse_mapper.h"
+#include "./c_library/bilinear_inverse_mapper.h"
 
 int main()
 {
