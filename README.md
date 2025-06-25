@@ -13,7 +13,7 @@ Given a point and a quadrilateral in the physical space, the function $\phi^{-1}
 * Calculate interpolation functions (shape functions) at a given point.
 * Evaluate Barycentric coordinates for points within triangles.
 * Analytical solution that avoids convergence issues commonly encountered in iterative schemes.
-* Approximately 2.5 times faster than Newton’s iterative method for quadrilaterals with non-parallel opposite sides.
+* Approximately 2.4 times faster than Newton’s iterative method for quadrilaterals with non-parallel opposite sides.
 
 ## Installation
 To install the library, simply clone this repository and include the header files in your project. Make sure to link the library during compilation.
