@@ -1,4 +1,4 @@
-# [[Preprint]](https://dx.doi.org/10.2139/ssrn.4790071)
+# [[Paper]](https://doi.org/10.1016/j.advengsoft.2025.103975)
 
 # Inverse Mapping Algorithm for Bilinear Interpolation of Quadrilaterals
 A powerful C library for finding the parametric co-ordinates of bilinear mapping for any given point with respect to a quadrilateral. These parametric co-ordinates are also utilised in calculating the interpolation functions or shape functions at the given point. The library also helps in evaluating the Barycentric co-ordinates of a point in case of a triangle.
@@ -22,7 +22,22 @@ To install the library, simply clone this repository and include the header file
 
 Refer to examples in this repository for a quick guide on this library's utility. 
 
-# Citation
+### Citation
+
 If you find this library useful, please cite:
 
-``` Sahu, Indrajeet, Bilinear-Inverse-Mapper: Analytical Solution and Algorithm for Inverse Mapping of Bilinear Interpolation of Quadrilaterals (April 10, 2024). Available at SSRN: https://ssrn.com/abstract=4790071 or http://dx.doi.org/10.2139/ssrn.4790071 ```
+> **Sahu, I.** (2025). *Bilinear-inverse-mapper: Analytical solution and algorithm for inverse mapping of bilinear interpolation of quadrilaterals*. *Advances in Engineering Software*, **208**, 103975.
+
+---
+
+Or use this BibTeX entry:
+
+```bibtex
+@article{sahu2025bilinear,
+  title={Bilinear-inverse-mapper: Analytical solution and algorithm for inverse mapping of bilinear interpolation of quadrilaterals},
+  author={Sahu, Indrajeet},
+  journal={Advances in Engineering Software},
+  volume={208},
+  pages={103975},
+  year={2025}
+}
