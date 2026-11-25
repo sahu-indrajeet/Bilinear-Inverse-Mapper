@@ -39,7 +39,7 @@ int main()
     double interpol_function_array[4]; // to store the interpolation function at this point
     F_Interpol_Function_Calculator_Quad(QuadrilateralCoo, PointCoo, interpol_function_array);
     printf("Interpolation function values at this point are:-\n");
-    for (size_t i = 1; i <= 4; i++)
+    for (int i = 1; i <= 4; i++)
     {
         printf("Interpolation Function(%d) = %.6f\n", i, interpol_function_array[i - 1]);
     }
