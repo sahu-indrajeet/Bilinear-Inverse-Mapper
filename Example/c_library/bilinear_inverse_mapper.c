@@ -20,6 +20,7 @@
 *
 */
 
+#include <stddef.h>
 #include <stdbool.h>
 #include <math.h>
 
@@ -103,7 +104,7 @@ void F_interpolate_quad(double QuadrilateralCoo[8], double xi1, double xi2, doub
 
 
 
-void F_quadr_roots(long double a,long double b, double c,long double roots[2])
+void F_quadr_roots(double a, double b, double c, double roots[2])
 {
     // function to calculate the roots of a quadratic equation
 
